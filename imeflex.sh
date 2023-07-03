@@ -11,7 +11,7 @@ cd flex-2.6.4
 ./configure --prefix=$(pwd) && make && make install
 
 cd ..
-wget http://gnu.c3sl.ufpr.br/ftp/bison/bison-3.8.2.tar.gz
+wget https://mirrors.dotsrc.org/gnu/bison/bison-3.8.2.tar.gz
 gunzip bison-3.8.2.tar.gz
 tar -xf bison-3.8.2.tar
 
